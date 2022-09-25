@@ -84,7 +84,7 @@ rm -r dir1 dir2 | Directories dir1 and dir2 are deleted along with all of their 
 
 Pattern | Matches
 ------- | -------
-* | All filenames
+\* | All filenames
 g* | All filenames that begin with the character "g"
 b*.txt | All filenames that begin with the character "b" and end with the characters ".txt"
 Data??? | Any filename that begins with the character "Data" followed by exactly 3 more characters
